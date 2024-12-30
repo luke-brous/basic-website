@@ -4,6 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.box {
+    color: black;
+    border: 10px black;
+    border-radius: 5px;
+    padding: 2px 2px 2px;
+}
+
 header {
     display: flex;
     padding: 10px 20px ;
@@ -32,4 +40,17 @@ header nav ul {
 header nav a {
     color: #131313;
     text-decoration: none;
+}
+
+
+#main_header {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+section p {
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 10px 50px;
 }
